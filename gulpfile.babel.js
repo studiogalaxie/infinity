@@ -89,7 +89,7 @@ gulp.task('copy:index.html', () => {
 });
 
 gulp.task('copy:license', () =>
-  gulp.src('LICENSE.txt')
+  gulp.src('LICENSE')
     .pipe(gulp.dest(dirs.dist))
 );
 
@@ -127,7 +127,7 @@ gulp.task('copy:normalize', () =>
 gulp.task('modernizr', (done) => {
   // TODO: rework this flow instead of just reacting to the fact that the jQuery step is gone
   if (!fs.existsSync(`${dirs.dist}/js/vendor/`)){
-    fs.mkdirSync(`${dirs.dist}/js/vendor/`);
+    fs.mkdirSync(`${dirs.dist}/js/vendor/`, {recursive: true});
   } 
   
   modernizr.build(modernizrConfig, (code) => {
