@@ -1,9 +1,9 @@
-# [Studio Galaxie - Into The Wild](https://intothewild.studiogalaxie.fr/)
+# [Studio Galaxie - Infinity](https://infinity.studiogalaxie.fr/)
 
 An incredible photo gallery webapp around h5bp, fullPage.js and Unsplash API
 
-* Homepage: [https://intothewild.studiogalaxie.fr/](https://intothewild.studiogalaxie.fr/)
-* Source: [https://github.com/studiogalaxie/intothewild](https://github.com/studiogalaxie/intothewild)
+* Homepage: [https://infinity.studiogalaxie.fr/](https://infinity.studiogalaxie.fr/)
+* Source: [https://github.com/studiogalaxie/infinity](https://github.com/studiogalaxie/infinity)
 * Twitter: [@studiogalaxie](https://twitter.com/studiogalaxie)
 
 ## Quick start
